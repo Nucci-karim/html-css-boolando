@@ -26,10 +26,11 @@ header{
     width: 10%;
     margin: auto;
 }
-nav ul li{
+ul li{
     display: inline-block;
-    margin: 0 10px;
+    margin-right: 10px;
     list-style-type: none;
+    
 }
 
 a{
@@ -119,4 +120,23 @@ a{
 
 .grigio{
     color: gray;
+}
+
+/* finale con footer */
+
+footer{
+    background-color: black;
+    height: 100px;
+    color: white;
+}
+
+.footer{
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.s-f{
+    margin-top: 20px;
 }
