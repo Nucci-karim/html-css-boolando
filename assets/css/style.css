@@ -122,6 +122,21 @@ a{
     color: gray;
 }
 
+.b{
+    display: none;
+}
+
+.card:hover .a{
+    display: none;
+}
+
+.reset{
+    display: block;
+}
+
+.card:hover .b{
+    display: block;
+}
 /* finale con footer */
 
 footer{
